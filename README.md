@@ -3,10 +3,32 @@
 # About Emperor
 Emperor (inspired by [Kestrel](https://github.com/Analyzer1x7000/Kestrel) is a DFIR script designed to pull critical forensic artifacts from a target during IR.
 
-It is designed to work on Linux machines, including RHEL, Ubuntu, CentOS, Debian, and SUSE Linux Enterprise Server (SLES).
-
 # Usage
 
 Download Emperor.sh and run via the command line:
 
 `sudo bash ./Emperor.sh`
+
+![image](https://github.com/Analyzer1x7000/Emperor/assets/103800652/ffee3483-70f7-472d-a603-561817123857)
+![image](https://github.com/Analyzer1x7000/Emperor/assets/103800652/90422a6e-d058-4b97-a928-314b2e78ec42)
+
+
+## Features
+
+Emperor collects the following artifacts.
+
+```
+    [+] Running Processes
+    [+] Active connections / Processes & PIDs / Command Lines
+    [+] /var/log/
+    [+] /etc/passwd
+    [+] /etc/shadow
+    [+] /etc/group
+    [+] /var/log/secure
+    [+] /var/log/auth.log
+    [+] Bash History
+    [+] zsh History
+    [+] sysctl + Kernel Information
+    [+] /tmp/
+    [+] /var/tmp/
+```
