@@ -1,5 +1,4 @@
-![image](https://github.com/Analyzer1x7000/Emperor/assets/103800652/c0eef4a3-b870-4495-882e-173e88a65108)
-
+![Emperor_Smaller](https://github.com/Analyzer1x7000/Emperor/assets/103800652/c3df5e23-86e8-4b0f-8a52-022f1bcd612d)
 
 # About Emperor
 Work in Progress.
