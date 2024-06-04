@@ -2,6 +2,8 @@
 
 
 # About Emperor
+Work in Progress.
+
 Emperor (inspired by Kestrel) is a DFIR script designed to pull critical forensic artifacts from a target during IR, for direct analysis on a forensic workstation. 
 
 It is designed to work on Linux machines, including RHEL, Ubuntu, CentOS, Debian, and SUSE Linux Enterprise Server (SLES).
