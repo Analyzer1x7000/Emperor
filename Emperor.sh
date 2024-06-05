@@ -134,7 +134,7 @@ getMountedFileSystems () {
 getPROC_Directory () {
     # Pull a copy of the /proc/ directory
     echo -e "${YELLOW}[+] Pulling the /proc directory...${NOCOLOR}"
-    rsync -a --exclude '*/task/*/mem' --exclude '*/mem' --exclude '*/clear_refs' --exclude '*/attr/*' --exclude '*/smaps' --exclude '*/smaps_rollup' --exclude '*/numa_maps' --exclude '*/coredump_filter' /proc "$output_dir/proc" || handle_error "/proc"
+    rsync -aL --exclude '*/task/*/mem' --exclude '*/mem' --exclude '*/clear_refs' --exclude '*/attr/*' --exclude '*/smaps' --exclude '*/smaps_rollup' --exclude '*/numa_maps' --exclude '*/coredump_filter' /proc "$output_dir/proc" || handle_error "/proc"
     print_done
 }
 
