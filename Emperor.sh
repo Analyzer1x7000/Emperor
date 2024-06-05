@@ -9,7 +9,7 @@ NOCOLOR='\033[0m'
 # Error handling function
 handle_error() {
     local artifact=$1
-    echo -e "${RED}[!] Encountered an error retrieving ${artifact}. See more details at $output_dir/0 - Emperor_Output.txt${NOCOLOR}\n"
+    echo -e "${RED}[!] Encountered at least one error while retrieving ${artifact}. See more details at $output_dir/0 - Emperor_Output.txt${NOCOLOR}\n"
 }
 
 print_done() {
