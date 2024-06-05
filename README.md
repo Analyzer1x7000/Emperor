@@ -18,17 +18,21 @@ Download Emperor.sh and run via the command line:
 Emperor collects the following artifacts.
 
 ```
-    [+] Running Processes
-    [+] Active connections / Processes & PIDs / Command Lines
-    [+] /var/log/
-    [+] /etc/passwd
-    [+] /etc/shadow
-    [+] /etc/group
-    [+] /var/log/secure
-    [+] /var/log/auth.log
+    [+] sysctl + Kernel Information
+    [+] Running Processes & Resource Usage Data
+    [+] Full File System Enumeration
+    [+] Firewall rules
+    [+] Active connections
+    [+] Processes & PIDs / Command Lines
+    [+] Installed Packages
+    [+] All Executable, Shell, & Script Files + Hashes
+    [+] Mounted Filesystems
+    [+] /proc/
+    [+] /home/
+    [+] /var/
+    [+] /etc/
+    [+] /usr/
+    [+] /tmp/
     [+] Bash History
     [+] zsh History
-    [+] sysctl + Kernel Information
-    [+] /tmp/
-    [+] /var/tmp/
 ```
